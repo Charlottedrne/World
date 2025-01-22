@@ -12,29 +12,61 @@
         <a-asset-item id="ohmu" src="./asset/ohmu1.glb"></a-asset-item>
         <a-asset-item id="cave" src="./asset/cave.glb"></a-asset-item>
         <a-asset-item id="flower1" src="./asset/Flower1.glb"></a-asset-item>
+        <a-asset-item id="flower2" src="./asset/Flower2.glb"></a-asset-item>
+        <a-asset-item id="flower3" src="./asset/flower3.glb"></a-asset-item>
+        <a-asset-item id="flower4" src="./asset/flower4.glb"></a-asset-item>
+        <a-asset-item id="flower5" src="./asset/flower5.glb"></a-asset-item>
         <a-asset-item id="fly1" src="./asset/fly1.glb"></a-asset-item>
+        <a-asset-item id="fly2" src="./asset/fly2.glb"></a-asset-item>
+        <a-asset-item id="plant1" src="./asset/plant.glb"></a-asset-item>
+        <a-asset-item id="plant2" src="./asset/plant2.glb"></a-asset-item>
+        <a-asset-item id="arbre" src="./asset/arbre.glb"></a-asset-item>
+
 
 
 
        
       </a-asset>
       <!-- asset -->
-      <a-light type="point" color="#D3E3E9" position="0.2 2 -3.5"></a-light>
+      <a-light type="point" color="#D3E3E9" position="4.309 1.460 -1.071" intensity="0.330"></a-light>
 
  
 
 
+<!-- plant -->
+<a-entity position="3.640 4.329 -27.753" scale="15 15 15 "  rotation="0 0 27.080" gltf-model="#plant1"></a-entity>
+<a-entity position="4.564 12.004 -13.744" scale="15 15 15 "  rotation="0 0 27.080" gltf-model="#plant2"></a-entity>
+<a-entity position="-1.875 2.172 -10.392" scale="15 25 25 "  rotation="0 0 0" gltf-model="#arbre"></a-entity>
 
+<!-- plant -->
+
+
+<!-- fleur -->
+<a-entity position="6.061 1.549 -4.355" scale="10 10 10 "  rotation="0 -29.940 0" gltf-model="#flower1"></a-entity>
+<a-entity position="4.727 -1.052 -12.790" scale="10 10 10 "  rotation="0 150.000 0" gltf-model="#flower2"></a-entity>
+<a-entity position="-0.349 1.209 -12.494" scale="7 7 7 "  rotation="0 0 0" gltf-model="#flower3"></a-entity>
+<a-entity position="6.234 5.883 -13.277" scale="10 10 10 "  rotation="0 -56.130 0.850" gltf-model="#flower4"></a-entity>
+<a-entity position="6.144 0.470 -32.720" scale="15 15 15 "  rotation="20.250 -54.370 0.850" gltf-model="#flower5"></a-entity>
      
-      <a-entity position="103.270 -22.898 -331.659" scale="220 200 200"  rotation="0 0 0" gltf-model="#ohmu"></a-entity>
-      <a-entity position="1.15 2.1 -15.62" scale="10 10 10 "  rotation="0 0 0" gltf-model="#flower1"></a-entity>
-      <a-entity position="1.15 2.1 -15.62" scale="10 10 10 "  rotation="0 0 0" gltf-model="#fly1"></a-entity>
-      <a-entity position="-1.140 60.243 41.096" scale="15 15 15" rotation="-7.520 0 0" gltf-model="#cave"></a-entity>
-      <a-entity position="2.316 7.890 11.538" scale="2 2 2" rotation="-7.520 0 0" gltf-model="#cave"></a-entity>
+     
+<!-- fleur -->
+
+<!-- animaux -->
+<a-entity position="103.270 -22.898 -331.659" scale="220 200 200"  rotation="0 0 0" gltf-model="#ohmu"></a-entity>
+<a-entity position="58.570 0.293 -245.780" scale="10 10 10 "  rotation="0 0 0" gltf-model="#fly1"></a-entity>
+
+ <!-- animaux -->
+
+
+
+      <!-- cave -->
+      <a-entity position="-1.140 63.413 41.096" scale="15 15 15" rotation="-7.520 0 0" gltf-model="#cave"></a-entity>
+      <a-entity position="0.158 4.354 9.318" scale="1.200 1.200 1.200" rotation="-7.520 0 0" gltf-model="#cave"></a-entity>
+       <!-- cave -->
 
       
 
-      <!-- grass   -->
+
 
       
 
@@ -52,7 +84,6 @@
       
 
       <a-camera position="0.2 1.5 0"></a-camera>
-      <a-entity light="type: ambient; color:#0A4444" ></a-entity>
       <a-sky color="#0A4444"></a-sky>
     </a-scene>
   </body>
