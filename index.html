@@ -28,7 +28,7 @@
        
       </a-asset>
       <!-- asset -->
-      <a-light type="point" color="#5b8a9a"   position="-2.609 1.979 -2.926" intensity="0.01"></a-light>
+      <a-light type="point" color="#5b8a9a"   position="-2.609 1.979 -2.926" intensity="0.1"></a-light>
 
 
 
@@ -37,12 +37,14 @@
       <a-light type="point" color="#8ab3c1" distance="5"  position="0.601 1.601 -10.268" intensity="0.730"></a-light>
       <a-light type="point" color="#8ab3c1" distance="5"  position="3.298 5.531 -10.798" intensity="1.130"></a-light>
       <a-light type="point" color="#8ab3c1" distance="5"  position="5.291 -0.248 -14.797" intensity="1.130"></a-light>
+      <a-light type="point" color="#8ab3c1" distance="5"  position="5.291 -0.248 -14.797" intensity="1.130"></a-light>
+      <a-light type="point" color="#8ab3c1" distance="5"  position="3.289 6.320 -22.967" intensity="1.130"></a-light>
 
-      <!-- lumiere fleur2 -->
-      <a-sphere position="0.456 1.381 -11.066" radius="0.520" material="color: #5b8a9a ; emissive: #5b8a9a ;emissiveIntensity:0.160"></a-sphere>
-      <a-sphere position="-0.360 2.496 -10.832" radius="0.520" material="color: #5b8a9a ; emissive: #5b8a9a ;emissiveIntensity:0.160"></a-sphere>
-      <a-sphere position="-1.126 1.979 -10.124" radius="0.520" material="color: #5b8a9a ; emissive: #5b8a9a ;emissiveIntensity:0.160"></a-sphere>
-      <!-- lumiere fleur2 -->
+      
+
+      <!-- lumiere trait -->
+      <a-sphere position="-10.650 22.497 -45.557" radius="1" opacity="0.3" scale="10 100 1" rotation="0 0 10" material="color: #5b8a9a ; emissive: #5b8a9a ;emissiveIntensity:1.060"></a-sphere>
+      <a-sphere position="31.110 49.364 -101.049" radius="1" opacity="0.3" scale="10 70 1" rotation="0 0 -20.620" material="color: #5b8a9a ; emissive: #5b8a9a ;emissiveIntensity:0.560"></a-sphere>
 
       <!-- petite a-sphere et lumiere avec -->
       
@@ -67,16 +69,27 @@
 <a-entity position="4.727 -1.052 -12.790" scale="10 10 10 "  rotation="0 150.000 0" gltf-model="#flower2"></a-entity>
 <a-entity position="-0.349 1.209 -12.494" scale="7 7 7 "  rotation="0 0 0" gltf-model="#flower3"></a-entity>
 <a-entity position="6.234 7.569 -13.277" scale="10 10 10 "  rotation="53.100 -53.320 0.850" gltf-model="#flower4"></a-entity>
-<a-entity position="6.144 0.470 -32.720" scale="15 15 15 "  rotation="20.250 -54.370 0.850" gltf-model="#flower5"></a-entity>
+
      
      
 <!-- fleur -->
 
+
+
 <!-- animaux -->
-<a-entity position="103.270 -22.898 -331.659" scale="220 200 200"  rotation="0 0 0" gltf-model="#ohmu"></a-entity>
-<a-entity position="58.570 0.293 -245.780" scale="10 10 10 "  rotation="0 0 0" gltf-model="#fly1"></a-entity>
+<a-entity position="3.379 9.714 -206.217" scale="300 300 300"  rotation="0 0 0" gltf-model="#ohmu"></a-entity>
+<a-entity position="6.516 70.833 -84.300" scale="20 20 20 "  rotation="0 0 0" gltf-model="#fly1"></a-entity>
 
  <!-- animaux -->
+
+ <!-- lumiere fleur2 -->
+ <a-sphere position="0.456 1.381 -11.066" radius="0.520" material="color: #5b8a9a ; emissive: #5b8a9a ;emissiveIntensity:0.160"></a-sphere>
+ <a-sphere position="-0.360 2.496 -10.832" radius="0.520" material="color: #5b8a9a ; emissive: #5b8a9a ;emissiveIntensity:0.160"></a-sphere>
+ <a-sphere position="-1.126 1.979 -10.124" radius="0.520" material="color: #5b8a9a ; emissive: #5b8a9a ;emissiveIntensity:0.160"></a-sphere>
+ <!-- lumiere fleur2 -->
+
+ <!-- grande fleur -->
+ <a-entity position="32.893 1.119 -44.439" scale="15 15 15 "  rotation="20.250 -54.370 0.850" gltf-model="#flower5"></a-entity>
 
 
 
@@ -98,6 +111,10 @@
       
       
       <!-- <a-entity light="color: #166867; intensity: 0.5" position="0 0 0"></a-entity> -->
+
+      <!-- control -->
+       <a-entity oculus-touch-controls="hand: left" laser-control="hand: left" raycaster="objects: .clickable;far: 10; showLine: true"></a-entity>
+       <a-entity oculus-touch-controls="hand: right" laser-control="hand: right" raycaster="objects: .clickable;far: 10; showLine: true"></a-entity>
       
       
       
