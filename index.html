@@ -11,7 +11,7 @@
       <a-asset>
         <a-asset-item id="ohmu" src="./asset/ohmu1.glb"></a-asset-item>
         <a-asset-item id="cave" src="./asset/cave.glb"></a-asset-item>
-        <a-asset-item id="gdcave" src="./asset/grandecave.glb"></a-asset-item>
+        <a-asset-item id="gdfleur" src="./asset/c1.glb"></a-asset-item>
         <a-asset-item id="flower1" src="./asset/Flower1.glb"></a-asset-item>
         <a-asset-item id="flower2" src="./asset/Flower2.glb"></a-asset-item>
         <a-asset-item id="flower3" src="./asset/flower3.glb"></a-asset-item>
@@ -26,6 +26,7 @@
         <a-asset-item id="plant2" src="./asset/plant2.glb"></a-asset-item>
         <a-asset-item id="plant3" src="./asset/plant3.glb"></a-asset-item>
         <a-asset-item id="arbre" src="./asset/arbre.glb"></a-asset-item>
+        <a-asset-item id="The" src="./asset/Theplant.glb"></a-asset-item>
 
 
 
@@ -33,7 +34,7 @@
        
       </a-asset>
       <!-- asset -->
-      <a-light type="point" color="#5b8a9a"   position="-0.011 1.979 -33.185" intensity="1.6"></a-light>
+      <a-light type="point" color="#5b8a9a"   position="-0.011 1.979 -33.185" intensity="0.4"></a-light>
 
 
 
@@ -48,9 +49,20 @@
       
 
       <!-- lumiere trait -->
-      <a-sphere position="-8.850 123.008 -53.797" radius="1" opacity="0.2" scale="8 100 1" rotation="0 0 10" material="color: #b3c9d1 ; emissive: #5b8a9a ;emissiveIntensity:0.560"></a-sphere>
-      <a-sphere position="31.110 49.364 -101.049" radius="1" opacity="0.3" scale="6 70 3" rotation="0 0 -20.620" material="color: #5b8a9a ; emissive: #5b8a9a ;emissiveIntensity:0.560"></a-sphere>
-      <a-sphere position="31.110 49.364 -101.049" radius="2" opacity="0.3" scale="6 70 3" rotation="0 0 -20.620" material="color: #5b8a9a ; emissive: #5b8a9a ;emissiveIntensity:0.560"></a-sphere>
+      <a-sphere position="-25.330 85.858 85.858" radius="1" opacity="0.3" scale="8 100 1" rotation="0 0 10" material="color: #b3c9d1 ; emissive: #5b8a9a ;emissiveIntensity:1.560"></a-sphere>
+      <a-sphere position="31.420 73.348 -38.897" radius="1" opacity="0.3" scale="8 100 1" rotation="0 0 -7.460" material="color: #b3c9d1 ; emissive: #5b8a9a ;emissiveIntensity:1.560"></a-sphere>
+      <a-sphere position="-7.624 37.072 -137.833" radius="1" opacity="0.3" scale="8 100 1" rotation="0 0 7.560" material="color: #b3c9d1 ; emissive: #5b8a9a ;emissiveIntensity:1.560"></a-sphere>
+      <a-sphere position="47.426 37.072 -242.034" radius="0.570" opacity="0.3" scale="8 100 1" rotation="0 0 -18.680" material="color: #b3c9d1 ; emissive: #5b8a9a ;emissiveIntensity:1.560"></a-sphere>
+
+      <a-sphere position="62.816 73.348 -279.531" radius="0.8" opacity="0.5" scale="8 100 1" rotation="0 0 -12.260" material="color: #b3c9d1 ; emissive: #5b8a9a ;emissiveIntensity:1.560"></a-sphere>
+
+      <a-sphere position="11.976 37.072 -279.531" radius="1" opacity="0.3" scale="8 100 1" rotation="0 0 3.620" material="color: #b3c9d1 ; emissive: #5b8a9a ;emissiveIntensity:1.560"></a-sphere>
+
+     
+
+
+      <a-sphere position="31.110 49.364 -101.049" radius="1" opacity="0.3" scale="6 70 3" rotation="0 0 -20.620" material="color: #5b8a9a ; emissive: #5b8a9a ;emissiveIntensity:1.560"></a-sphere>
+      <a-sphere position="31.110 49.364 -101.049" radius="2" opacity="0.3" scale="6 70 3" rotation="0 0 -20.620" material="color: #5b8a9a ; emissive: #5b8a9a ;emissiveIntensity:1.560"></a-sphere>
 
       <!-- petite a-sphere et lumiere avec -->
       
@@ -83,7 +95,7 @@
 
 
 <!-- animaux -->
-<a-entity position="43.324 9.714 -316.302" scale="250 250 300"  rotation="0 0 0" gltf-model="#ohmu"></a-entity>
+<a-entity position="43.324 9.714 -337.849" scale="250 250 300"  rotation="0 0 0" gltf-model="#ohmu"></a-entity>
 <a-entity position="6.516 70.833 -84.300" scale="20 20 20 "  rotation="0 0 0" gltf-model="#fly1" animation__move="property: position; 
 from: 6.516 60.833 -84.300; 
 to: 10 60.833 -80; 
@@ -105,27 +117,14 @@ loop: true"></a-entity>></a-entity>
  <a-light type="point" color="#8ab3c1" distance="7"  position="-10.510 6.689 -36.984" intensity="1.530"></a-light>
 
   <!-- mur -->
- <a-light type="point" color="#8ab3c1" distance="10"  position="-8.964 50.311 -65.038" intensity="2.530"></a-light>
- <a-light type="point" color="#8ab3c1" distance="12"  position="-8.267 58.303 -86.154" intensity="3.030"></a-light>
- <a-light type="point" color="#8ab3c1" distance="10"  position="-10.500 6.689 -36.974" intensity="3.030"></a-light>
- <a-light type="point" color="#8ab3c1" distance="12"  position="-10.543 50.128 -65.201" intensity="3.030"></a-light>
- <a-light type="point" color="#8ab3c1" distance="11"  position="-22.430 39.774 -60.188" intensity="3.030"></a-light>
- <a-light type="point" color="#8ab3c1" distance="11"  position="-11.796 49.364 -101.049" intensity="3.530"></a-light>
- <a-light type="point" color="#8ab3c1" distance="5"  position="-21.194 18.462 -92.515" intensity="3.030"></a-light>
- <a-light type="point" color="#8ab3c1" distance="5"  position="-21.204 21.927 -108.673" intensity="3.030"></a-light>
- <a-light type="point" color="#8ab3c1" distance="12"  position="-21.204 21.927 -121.641" intensity="3.030"></a-light>
- <a-light type="point" color="#8ab3c1" distance="5"  position="-28.241 17.710 -128.711" intensity="3.030"></a-light>
- <a-light type="point" color="#8ab3c1" distance="5"  position="-28.241 17.710 -128.711" intensity="3.030"></a-light>
- <a-light type="point" color="#8ab3c1" distance="5"  position="-18.328 18.985 -131.153" intensity="3.030"></a-light>
- <a-light type="point" color="#8ab3c1" distance="10"  position="-18.328 15.326 -147.588" intensity="3.030"></a-light>
- <a-light type="point" color="#8ab3c1" distance="10"  position="-18.328 15.326 -147.588" intensity="2.030"></a-light>
- <a-light type="point" color="#8ab3c1" distance="10"  position="-20.182 33.085 -96.735" intensity="2.030"></a-light>
- <a-light type="point" color="#8ab3c1" distance="10"  position="-19.498 36.783 -83.661" intensity="3.030"></a-light>
- <a-light type="point" color="#8ab3c1" distance="10"  position="-22.652 27.985 -74.753" intensity="3.030"></a-light>
- <a-light type="point" color="#8ab3c1" distance="10"  position="-12.771 53.436 -104.437" intensity="3.030"></a-light>
- <a-light type="point" color="#8ab3c1" distance="5"  position="-14.307 46.321 -117.996" intensity="2.030"></a-light>
- <a-light type="point" color="#8ab3c1" distance="10"  position="-13.777 39.721 -125.678" intensity="3.030"></a-light>
- <a-light type="point" color="#8ab3c1" distance="10"  position="-9.322 49.153 -158.389" intensity="3.030"></a-light>
+
+ <a-light type="point" color="#8ab3c1" distance="12"  position="-16.719 8.778 -29.885" intensity="3.030"></a-light>
+ <a-light type="point" color="#8ab3c1" distance="10"  position="-29.222 20.597 -36.974" intensity="3.030"></a-light>
+ <a-light type="point" color="#8ab3c1" distance="12"  position="-26.269 21.927 -94.776" intensity="3.030"></a-light>
+ <a-light type="point" color="#8ab3c1" distance="20"  position="-22.430 39.774 -131.041" intensity="5.030"></a-light>
+ <a-light type="point" color="#8ab3c1" distance="11"  position="-21.791 13.838 -129.603" intensity="3.530"></a-light>
+ <a-light type="point" color="#8ab3c1" distance="20"  position="-25.703 17.710 -128.711" intensity="3.030"></a-light>
+
 
  <a-sphere position="0.456 1.381 -11.066" radius="0.520" material="color: #5b8a9a ; emissive: #5b8a9a ;emissiveIntensity:0.160"></a-sphere>
 
@@ -137,9 +136,130 @@ loop: true"></a-entity>></a-entity>
 
 
       <!-- cave -->
-      <a-entity position="28.251 17.710 -128.711" scale="5 5 5" rotation="-9.340 0 0" gltf-model="#gdcave"></a-entity>
+      <a-entity position="68.679 -33.723 46.950" scale="35 35 35" rotation="-9.340 0 0" gltf-model="#cave"></a-entity>
+      <a-entity position="23.284 22.088 -16.211" scale="75 75 75" rotation="0 0 0" gltf-model="#gdfleur"></a-entity>
       <a-entity position="7.749 -3.854 4.733" scale="3.350 3.200 3.200" rotation="-9.880 0 0" gltf-model="#cave"></a-entity>
        <!-- cave -->
+
+      
+        <a-light type="point" color="#8ab3c1" distance="10"  position="20.608 4.133 -128.711" intensity="3.030"></a-light>
+
+       
+
+       <a-light type="point" color="#8ab3c1" distance="10"  position="47.194 4.133 -166.588" intensity="3.030"></a-light>
+
+       <a-light type="point" color="#8ab3c1" distance="10"  position="19.973 4.133 -166.588" intensity="3.030"></a-light>
+
+       <a-light type="point" color="#8ab3c1" distance="10"  position="48.588 4.133 -190.379" intensity="3.030"></a-light>
+
+       <a-light type="point" color="#8ab3c1" distance="10"  position="50.838 4.475 -120.787" intensity="3.030"></a-light>
+
+       <a-light type="point" color="#8ab3c1" distance="10"  position="50.838 4.475 -92.050" intensity="3.030"></a-light>
+
+       <a-light type="point" color="#8ab3c1" distance="10"  position="27.743 4.475 -93.988" intensity="3.030"></a-light>
+
+
+       <a-light type="point" color="#8ab3c1" distance="10"  position="2.473 4.475 -67.474" intensity="3.030"></a-light>
+
+       <a-light type="point" color="#8ab3c1" distance="10"  position="-18.413 4.475  -67.474" intensity="3.030"></a-light>
+
+       <a-light type="point" color="#8ab3c1" distance="10"  position="-18.473 4.475 -46.972" intensity="3.030"></a-light>
+
+       <a-light type="point" color="#8ab3c1" distance="10"  position="-18.473 4.475 -2.871" intensity="3.030"></a-light>
+
+       <a-light type="point" color="#8ab3c1" distance="10"  position="9.521 4.475 -38.444" intensity="3.030"></a-light>
+
+  
+       <a-light type="point" color="#8ab3c1" distance="10"  position="28.148 4.475 -56.361" intensity="3.030"></a-light>
+
+       <a-light type="point" color="#8ab3c1" distance="10"  position="20.050 5.475 -9.251" intensity="3.030"></a-light>
+
+       <a-light type="point" color="#8ab3c1" distance="10"  position="45.810 4.475 -13.193" intensity="3.030"></a-light>
+
+      
+       <a-light type="point" color="#8ab3c1" distance="10"  position="65.207 5.475 8.474" intensity="3.030"></a-light>
+
+       <a-light type="point" color="#8ab3c1" distance="10"  position="42.893 5.475 -67.978" intensity="3.030"></a-light>
+
+    
+       <a-light type="point" color="#8ab3c1" distance="10"  position="2.865 5.475 -150.826" intensity="3.030"></a-light>
+
+       <a-light type="point" color="#8ab3c1" distance="10"  position="2.865 5.475 -106.090" intensity="3.030"></a-light>
+
+       <a-light type="point" color="#8ab3c1" distance="20"  position="39.656 57.746 -90.875" intensity="3.030"></a-light> 
+  
+
+       
+
+       
+
+       <a-entity cursor="fuse: false; rayOrigin: mouse" position="0 0 -1"
+                  geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03"
+                  material="color: white; shader: flat"></a-entity>
+      </a-entity>
+
+      <!-- Texte d'introduction -->
+      <a-entity id="introText"
+                position="1 2 -3"
+                text="value: 
+                Tu es de retour dans la forêt toxique à la recherche de 10 spores bleuâtres tres toxiques. Rares et precieuses, elles te permettront de mieux comprendre cette nature mysterieuse. Explore avec soin et recupere-les pour pouvoir repartir. ; align: center; width: 4; color: white;">
+      </a-entity>
+
+      <!-- Texte de succès (caché au début) -->
+     
+
+      <!-- Compteur -->
+      
+      </a-entity>
+      
+      
+      
+
+      <!-- Génération des fleurs -->
+      <a-entity id="flowerContainer" gltf-model="#The"></a-entity>
+
+<script>
+  let flowerCount = 0;
+  const totalFlowers = 10;
+
+  // Liste des positions définies pour les fleurs (tu peux modifier ces valeurs)
+  const flowerPositions = [
+    { x: -13.961, y: 1.5, z: -13.820 },
+    { x: 21.585, y: 2, z: -16.828 },
+    { x: 36.057, y: 1, z: -35.272 },
+    { x: -2.990, y: 1.2, z: -110.031 },
+    { x: 22.841, y: 1, z: -93.151 },
+    { x: 8.531, y: 1.3, z: -174.750 },
+    { x: -6.924, y: 1.8, z: -142.314 },
+    { x: 46.801, y: 3.880, z: -170.514 },
+    { x: 3.387, y: 1.6, z: -2.756 },
+    { x: 30.285, y: 1, z: -120.184 }
+  ];
+
+  function createFlower(x, y, z) {
+    let flower = document.createElement('a-entity');
+    flower.setAttribute('geometry', 'primitive: sphere; radius: 0.2');
+    flower.setAttribute('material', 'color: #1E96A4; shader: flat; emissive: #5b8a9a; emissiveIntensity:1.660');
+    flower.setAttribute('position', `${x} ${y} ${z}`);
+    flower.setAttribute('class', 'flower');
+
+    flower.addEventListener('click', () => {
+      flower.parentNode.removeChild(flower);
+      flowerCount++;
+      document.getElementById('counter').setAttribute('text', `value: Spores trouves: ${flowerCount}/10`);
+      
+      if (flowerCount === totalFlowers) {
+        document.getElementById('successText').setAttribute('visible', 'true');
+      }
+    });
+
+    document.getElementById('flowerContainer').appendChild(flower);
+  }
+
+  // Création des fleurs aux positions définies
+  flowerPositions.forEach(pos => createFlower(pos.x, pos.y, pos.z));
+</script>
+
 
       
 
@@ -161,11 +281,27 @@ loop: true"></a-entity>></a-entity>
       
       
       
-      
-      
-
-      <a-camera position="0.2 1.5 0"></a-camera>
-      <a-sky color="#0A4444"></a-sky>
+       <a-camera position="0.2 1.5 0">
+        
+          <!-- Caméra avec look-controls -->
+          <a-entity id="successText"
+                position="0 2 0"
+                text="value: Bravo, tu as trouvées tous les spores toxiques ! ; align: center; width: 4; color: #A3DDED;"
+                visible="false">
+      </a-entity>
+          
+           
+        
+           
+            <a-entity id="counter"
+                      position="0 0.8 -1.5"  
+                      text="value: Spores trouves: 0/10; align: left; width: 3; color: #A3DDED;">
+            
+          </a-entity>
+        
+        <a-entity movement-controls></a-entity>
+      </a-camera>
+      <a-sky color="#000000"></a-sky>
     </a-scene>
   </body>
 </html>
